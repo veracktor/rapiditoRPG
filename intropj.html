@@ -8,6 +8,44 @@
     <script src="scripts.js" defer></script>
 </head>
 <body>
-    <a href="#">Por ahora el botón funciona, que se yo....</a>
+    <h1>Creando un personaje.</h1>
+    <h2>¿Acá iría plain text? Explicaciones de los siguientes temas:
+        ♦ Nombre
+        ♦ Concepto
+        ♦ Atributos
+        ♦ Habilidades
+    </h2>
+    <div class="container">
+        <h1> Acá van concepto y nombre. </h1>
+        <form id="inicialesPJ" >
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="concepto">concepto:</label>
+                <input type="text" id="concepto" name="concepto" >
+            </div>                      
+                       
+            
+
+        </form>
+         
+    
+        <button onclick="fCrearpj()">Crear un PJ</button>
+
+        <script>
+            function fCrearpj() {
+                window.location.href = 'cierrepj.html';                
+            }
+        </script>
+        <button onclick="fExportarpj()">Exportar un PJ</button>
+
+        <script>
+            function fExportarpj() {
+                window.location.href = 'index.html';                
+            }
+        </script>
+    </div>
 </body>
 </html>

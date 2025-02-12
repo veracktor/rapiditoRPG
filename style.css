@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     height: 100vh; /* Altura completa de la ventana */
 }
 
