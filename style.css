@@ -25,14 +25,16 @@ body {
 h1 {
     color: #ff7300;
     margin-bottom: 35px; /* Espacio debajo del título */
-    font-size: 35px 
+    font-size: 35px ;
+    text-align: center
 }
 
 h2 {
     color: #ffffff;
     margin-bottom: 20px; /* Texto general */
-    font-size: 20px 
-}
+    font-size: 20px ;
+    text-align: center;
+    }
 
 /* Estilo para las etiquetas y entradas */
 label {

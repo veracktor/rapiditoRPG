@@ -8,6 +8,8 @@
     <script src="scripts.js" defer></script>
 </head>
 <body>
+    <div class="container">
+    <form id="inicialesPJ" >
     <h1>Creando un personaje.</h1>
     <h2>¿Acá iría plain text? Explicaciones de los siguientes temas:
         ♦ Nombre
@@ -15,9 +17,9 @@
         ♦ Atributos
         ♦ Habilidades
     </h2>
-    <div class="container">
+    
         <h1> Acá van concepto y nombre. </h1>
-        <form id="inicialesPJ" >
+        
             <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
@@ -26,22 +28,19 @@
                 <label for="concepto">concepto:</label>
                 <input type="text" id="concepto" name="concepto" >
             </div>                      
-                       
-            
-
+            <button onclick="fExportarpj()">Exportar un PJ</button>    
+            <button onclick="fCrearpj()">Crear un PJ</button>
+            </div>
         </form>
          
     
-        <button onclick="fCrearpj()">Crear un PJ</button>
+        
 
         <script>
             function fCrearpj() {
                 window.location.href = 'cierrepj.html';                
-            }
-        </script>
-        <button onclick="fExportarpj()">Exportar un PJ</button>
-
-        <script>
+            }         
+       
             function fExportarpj() {
                 window.location.href = 'index.html';                
             }
